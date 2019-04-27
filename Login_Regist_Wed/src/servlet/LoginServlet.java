@@ -11,6 +11,18 @@ import javax.servlet.http.HttpServletResponse;
 import bean.User;
 import imple_userdao.UserDAOImple;
 
+
+/**
+ * 
+ * 
+ * @Description: 处理用户的登录信息
+ * @ClassName: LoginServlet
+ *
+ * @return:
+ *
+ * @author: Dangh
+ * @date: 2019年4月27日 下午8:53:55
+ */
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
