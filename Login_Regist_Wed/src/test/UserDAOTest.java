@@ -19,7 +19,8 @@ class UserDAOTest {
 	@Test
 	void testCheckUsername() {
 		boolean username = dao.checkUsername("admin2");
-		System.out.println(username);
+		boolean username2 = dao.checkUsername("admin");
+		System.out.println(username2);
 	}
 
 	@Test
